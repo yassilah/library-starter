@@ -1,5 +1,11 @@
 # 📦 Library
 
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![Github Actions CI][github-actions-ci-src]][github-actions-ci-href]
+[![Codecov][codecov-src]][codecov-href]
+[![License][license-src]][license-href]
+
 > Library starter template
 
 ## Features
@@ -101,3 +107,16 @@ yarn semantic-release
 ## License
 
 [MIT](./LICENSE) - Made with ❤️
+
+<!-- Badges -->
+
+[npm-version-src]: https://img.shields.io/npm/v/@yassilah/library-starter/latest.svg
+[npm-version-href]: https://npmjs.com/package/@yassilah/library-starter
+[npm-downloads-src]: https://img.shields.io/npm/dm/@yassilah/library-starter.svg
+[npm-downloads-href]: https://npmjs.com/package/@yassilah/library-starter
+[github-actions-ci-src]: https://github.com/yassilah/library-starter/actions/workflows/ci.yml/badge.svg
+[github-actions-ci-href]: https://github.com/yassilah/library-starter/actions?query=workflow@ci
+[codecov-src]: https://img.shields.io/codecov/c/github/yassilah/library-starter.svg
+[codecov-href]: https://codecov.io/gh/yassilah/library-starter
+[license-src]: https://img.shields.io/npm/l/@yassilah/library-starter.svg
+[license-href]: https://npmjs.com/package/@yassilah/library-starter

@@ -1,5 +1,11 @@
 # 📦 Library Name
 
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![Github Actions CI][github-actions-ci-src]][github-actions-ci-href]
+[![Codecov][codecov-src]][codecov-href]
+[![License][license-src]][license-href]
+
 > What is my library core function?
 
 ## Features
@@ -22,3 +28,16 @@ To learn more about this library, please check out our [docs](https://library-ur
 ## License
 
 [MIT](./LICENSE) - Made with ❤️
+
+<!-- Badges -->
+
+[npm-version-src]: https://img.shields.io/npm/v/@username/library/latest.svg
+[npm-version-href]: https://npmjs.com/package/@username/library
+[npm-downloads-src]: https://img.shields.io/npm/dm/@username/library.svg
+[npm-downloads-href]: https://npmjs.com/package/@username/library
+[github-actions-ci-src]: https://github.com/@username/library/actions/workflows/ci.yml/badge.svg
+[github-actions-ci-href]: https://github.com/@username/library/actions?query=workflow%3Aci
+[codecov-src]: https://img.shields.io/codecov/c/github/@username/library.svg
+[codecov-href]: https://codecov.io/gh/@username/library
+[license-src]: https://img.shields.io/npm/l/@username/library.svg
+[license-href]: https://npmjs.com/package/@username/library
