@@ -23,7 +23,8 @@
     "serve": "vitepress serve docs",
     "test": "vitest",
     "coverage": "vitest run --coverage",
-    "commit": "cz"
+    "commit": "cz",
+    "commit:all": "git add . && cz"
   },
   "devDependencies": {
     "@apenhet/eslint-config": "latest",
