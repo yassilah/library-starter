@@ -28,7 +28,8 @@
 5. Create a personal token on [Github](https://github.com/settings/tokens/new).
 6. Add a `GH_TOKEN` actions secret from `https://github.com/<YOUR_USERNAME>/<YOUR_REPO>/settings/secrets/actions/new` using your personal token.
 7. Replace this `README.md` file with the `README.example.md`.
-8. You're good to go 🎉
+8. Enable Github Pages from `https://github.com/<YOUR_USERNAME>/<YOUR_REPO>/settings/pages` on branch `gh-pages`.
+9. You're good to go 🎉
 
 ## Scripts
 
