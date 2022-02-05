@@ -18,12 +18,12 @@
 ## Installation
 
 ```bash
-yarn add library-name # or npm install library-name
+yarn add @package/name # or npm install @package/name
 ```
 
 ## Docs
 
-To learn more about this library, please check out our [docs](https://library-url.com)!
+To learn more about this library, please check out our [docs](https://{username}.github.io/{repo}/)!
 
 ## License
 
@@ -35,9 +35,9 @@ To learn more about this library, please check out our [docs](https://library-ur
 [npm-version-href]: https://npmjs.com/package/@package/name
 [npm-downloads-src]: https://img.shields.io/npm/dm/@package/name.svg
 [npm-downloads-href]: https://npmjs.com/package/@package/name
-[github-actions-ci-src]: https://github.com/username/repo/actions/workflows/ci.yml/badge.svg
-[github-actions-ci-href]: https://github.com/username/repo/actions?query=workflow%3Aci
-[codecov-src]: https://img.shields.io/codecov/c/github/username/repo.svg
-[codecov-href]: https://codecov.io/gh/username/repo
+[github-actions-ci-src]: https://github.com/{username}/{repo}/actions/workflows/ci.yml/badge.svg
+[github-actions-ci-href]: https://github.com/{username}/{repo}/actions?query=workflow%3Aci
+[codecov-src]: https://img.shields.io/codecov/c/github/{username}/{repo}.svg
+[codecov-href]: https://codecov.io/gh/{username}/{repo}
 [license-src]: https://img.shields.io/npm/l/@package/name.svg
 [license-href]: https://npmjs.com/package/@package/name

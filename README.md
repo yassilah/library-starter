@@ -21,9 +21,9 @@
 
 ## Usage
 
-1. Clone this repo.
+1. Clone this {repo}.
 2. Replace all instances of `@package/name` with your actual package name.
-3. Replace all instances of `username/repo` with your actual Github username and repo.
+3. Replace all instances of `{username}` and `{repo}` with your actual Github username and repositery name.
 4. Run `npx semantic-release setup` to setup your auto-releases.
 5. Create a personal token on [Github](https://github.com/settings/tokens/new).
 6. Add a `GH_TOKEN` actions secret from `https://github.com/<YOUR_USERNAME>/<YOUR_REPO>/settings/secrets/actions/new` using your personal token.
