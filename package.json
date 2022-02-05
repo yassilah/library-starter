@@ -59,5 +59,11 @@
     "commitizen": {
       "path": "cz-emoji"
     }
+  },
+  "release": {
+    "branches": [
+      "main",
+      "master"
+    ]
   }
 }

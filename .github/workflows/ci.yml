@@ -10,7 +10,7 @@ on:
 
 jobs:
   test:
-    name: Build & Test
+    name: Test
     runs-on: ubuntu-latest
     strategy:
       matrix:
