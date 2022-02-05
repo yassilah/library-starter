@@ -1,6 +1,6 @@
 {
   "name": "@username/library",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "A library starter template.",
   "license": "MIT",
   "type": "module",
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/username/library"
+    "url": "https://github.com/yassilah/library-starter"
   },
   "scripts": {
     "prepack": "unbuild",
@@ -28,7 +28,8 @@
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "commit": "cz",
-    "commit:all": "git add . && cz"
+    "commit:all": "git add . && cz",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@apenhet/eslint-config": "latest",
@@ -39,7 +40,8 @@
     "glob-watcher": "^5.0.5",
     "unbuild": "latest",
     "vitepress": "^0.21.6",
-    "vitest": "latest"
+    "vitest": "latest",
+    "semantic-release": "^19.0.2"
   },
   "eslintConfig": {
     "extends": "@apenhet",
