@@ -5,7 +5,7 @@ This part describes what `example` does.
 ### Usage
 
 ```ts
-import { myExample } from "library-name";
+import { myExample } from "@package/name";
 
 const foo = myExample();
 ```
