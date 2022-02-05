@@ -23,8 +23,8 @@
   "scripts": {
     "prepack": "unbuild",
     "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "serve": "vitepress serve docs",
+    "build:docs": "vitepress build docs",
+    "serve:docs": "vitepress serve docs",
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "commit": "cz",
