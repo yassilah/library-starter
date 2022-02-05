@@ -4,7 +4,7 @@
 set -e
 
 # build
-npm run docs:build
+yarn build
 
 # navigate into the build output directory
 cd docs/.vitepress/dist
