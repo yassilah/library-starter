@@ -2,6 +2,8 @@
   "compilerOptions": {
     "target": "esnext",
     "moduleResolution": "node",
-    "types": ["vitest"]
-  }
+    "types": ["vitest"],
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*", "docs/.vitepress/**/*"]
 }

@@ -1,8 +1,8 @@
-# Example
+## Guide
 
 This part describes what `example` does.
 
-## Usage
+### Usage
 
 ```ts
 import { myExample } from "library-name";
