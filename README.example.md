@@ -31,13 +31,13 @@ To learn more about this library, please check out our [docs](https://library-ur
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/@username/library/latest.svg
-[npm-version-href]: https://npmjs.com/package/@username/library
-[npm-downloads-src]: https://img.shields.io/npm/dm/@username/library.svg
-[npm-downloads-href]: https://npmjs.com/package/@username/library
-[github-actions-ci-src]: https://github.com/@username/library/actions/workflows/ci.yml/badge.svg
-[github-actions-ci-href]: https://github.com/@username/library/actions?query=workflow%3Aci
-[codecov-src]: https://img.shields.io/codecov/c/github/@username/library.svg
-[codecov-href]: https://codecov.io/gh/@username/library
-[license-src]: https://img.shields.io/npm/l/@username/library.svg
-[license-href]: https://npmjs.com/package/@username/library
+[npm-version-src]: https://img.shields.io/npm/v/@package/name/latest.svg
+[npm-version-href]: https://npmjs.com/package/@package/name
+[npm-downloads-src]: https://img.shields.io/npm/dm/@package/name.svg
+[npm-downloads-href]: https://npmjs.com/package/@package/name
+[github-actions-ci-src]: https://github.com/username/repo/actions/workflows/ci.yml/badge.svg
+[github-actions-ci-href]: https://github.com/username/repo/actions?query=workflow%3Aci
+[codecov-src]: https://img.shields.io/codecov/c/github/username/repo.svg
+[codecov-href]: https://codecov.io/gh/username/repo
+[license-src]: https://img.shields.io/npm/l/@package/name.svg
+[license-href]: https://npmjs.com/package/@package/name
