@@ -95,7 +95,7 @@ yarn prepack
 Release a semantic versioned package using [Semantic Release](https://github.com/semantic-release/semantic-release).
 
 ```bash
-yarn prepack
+yarn semantic-release
 ```
 
 ## License
