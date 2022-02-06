@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { description, name, repository } from '../../package.json'
+import { description, name, repository } from './../package.json'
 import { resolve } from 'path'
 
 const srcDir = resolve(__dirname, '../../src')
