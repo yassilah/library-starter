@@ -3,12 +3,13 @@ import { description, name, repository } from './../package.json'
 import { resolve } from 'path'
 
 const srcDir = resolve(__dirname, '../../src')
+const isProduction = process.env.NODE_ENV === 'production'
 
 export default defineConfig({
     title: name,
     description,
     srcDir,
-    base: '/{repo}',
+    base: isProduction ? '/{repo}' : '/',
     themeConfig: {
         repo: repository.url,
         editLinks: true,
