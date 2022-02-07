@@ -35,7 +35,7 @@
 
 #### dev
 
-Run your `docs` dev server using [Vitepress](https://vitepress.vuejs.org). You can customize your config inside `docs/.vitepress/config.ts`.
+Run your `docs` dev server using [Vitepress](https://vitepress.vuejs.org). You can customize your config inside `.vitepress/config.ts`.
 
 ```bash
 yarn dev
@@ -43,7 +43,7 @@ yarn dev
 
 #### build
 
-Build your `docs` using [Vitepress](https://vitepress.vuejs.org). You can customize your config inside `docs/.vitepress/config.ts`.
+Build your `docs` using [Vitepress](https://vitepress.vuejs.org). You can customize your config inside `.vitepress/config.ts`.
 
 ```bash
 yarn build
@@ -51,7 +51,7 @@ yarn build
 
 #### serve
 
-Serve your `docs` using [Vitepress](https://vitepress.vuejs.org). You can customize your config inside `docs/.vitepress/config.ts`.
+Serve your `docs` using [Vitepress](https://vitepress.vuejs.org). You can customize your config inside `.vitepress/config.ts`.
 
 ```bash
 yarn serve

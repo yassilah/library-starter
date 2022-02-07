@@ -1,14 +1,30 @@
+import { createSiderbarBuilder } from './utils/sidebar'
 import { defineConfig } from 'vitepress'
 import { description, name, repository } from './../package.json'
 import { resolve } from 'path'
+import WindiCSS from 'vite-plugin-windicss'
 
-const srcDir = resolve(__dirname, '../../src')
-const isProduction = process.env.NODE_ENV === 'production'
+export const srcDir = resolve(__dirname, '../src')
+
+export const isProduction = process.env.NODE_ENV === 'production'
+
+const buildSideBar = createSiderbarBuilder()
 
 export default defineConfig({
     title: name,
     description,
     srcDir,
+    vite: {
+        plugins: [
+            WindiCSS({
+                config: {
+                    extract: {
+                        include: ['**/*.md', '**/*.vue']
+                    }
+                }
+            })
+        ]
+    },
     base: isProduction ? '/{repo}' : '/',
     themeConfig: {
         repo: repository.url,
@@ -19,12 +35,17 @@ export default defineConfig({
             {
                 text: 'Home',
                 link: '/'
-            },
-            {
-                text: 'Guide',
-                link: '/guide/'
             }
         ],
-        sidebar: 'auto'
+        sidebar: {
+            '/': [
+                {
+                    text: 'Introduction',
+                    link: '/',
+                    children: []
+                },
+                ...buildSideBar('/')
+            ]
+        }
     }
 })

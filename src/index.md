@@ -1,8 +1,3 @@
----
-sidebar: true
-title: Introduction
----
-
 ## Introduction
 
 Ad anim qui laboris cupidatat duis excepteur sunt quis id in.

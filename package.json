@@ -31,14 +31,17 @@
   },
   "devDependencies": {
     "@apenhet/eslint-config": "latest",
+    "@hackmd/meta-marked": "^0.5.0",
     "c8": "^7.11.0",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "latest",
     "semantic-release": "^19.0.2",
     "unbuild": "latest",
+    "vite-plugin-windicss": "^1.6.3",
     "vitepress": "^0.21.6",
-    "vitest": "latest"
+    "vitest": "latest",
+    "windicss": "^3.4.3"
   },
   "eslintConfig": {
     "extends": "@apenhet",
